@@ -1,0 +1,32 @@
+li{
+    border: 2px ridge rgb(200, 200, 200);
+    font-size: x-large;
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 5px;
+}
+li:hover {
+background-color: rgb(150, 150, 150);
+}
+ul{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.botao{
+    background-color: rgb(150, 150, 150);
+    color: white;
+    border: 3px solid;
+    padding: 5px;
+    display: inline;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 5px 5px 5px grey;
+}
+.botao:hover{
+background-color: black;
+
+}

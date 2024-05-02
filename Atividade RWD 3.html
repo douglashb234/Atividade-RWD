@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 3</title>
+</head>
+<script src="javascript.js"></script>
+<body>
+
+<script type="text/javascript">
+    document.write("Olá Mundo")
+</script>
+
+<p>Soma Teste 1</p>
+<p id="teste"></p>
+
+
+<script>
+    let x = soma(5, 5);
+    document.getElementById("teste").innerHTML = x
+
+    function soma (a, b) {
+        return a + b;
+    }
+</script>
+
+<p>Soma Teste 2</p>
+
+<form name="soma">
+    Primeiro Numero: <input type="text" name="a"><br>
+    Segundo Numero: <input type="text" name="b"><br>
+    <input type="button" value="Calcular" onclick="fazersoma();">
+</form>
+
+<ul>
+    <li>
+        <a href="Atividade RWD 1.html">Atividade 1</a>
+    </li>
+    <li>
+        <a href="Atividade RWD 2.html">Atividade 2</a>
+    </li>
+    <li>
+        <a href="Atividade RWD 3.html">Atividade 3</a>
+    </li>
+</ul>
+
+</body>
+</html>
